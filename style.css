@@ -1,34 +1,34 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
   line-height: 1;
   width: 1440px;
 }
 
-.widget {
+main {
   display: flex;
   justify-content: center;
-   vertical-align: center;
-  padding: 125px;
+  vertical-align: center;
 }
 
 .main {
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
-  width: 375px;
-  height: 580px;
+  max-width: 375px;
   padding: 15px;
   font-weight: 700;
+  min-height: 100vh;
+  align-items: center;
 }
 
-p {
+h1 {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-span {
+p {
   color: hsl(220, 15%, 55%);
   font-size: 18px;
   font-weight: 400;
@@ -49,3 +49,4 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
